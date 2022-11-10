@@ -1,0 +1,44 @@
+* {
+    color: antiquewhite;
+}
+
+.dark-theme {
+
+    background-color: red;
+}
+
+.setima-aula-main {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+
+
+    &>h1 {
+        
+        margin-bottom: 32px;
+
+    }
+
+    &>button {
+        
+        color: black;
+        padding: 4px;
+        margin-right: 12px;
+
+    }
+
+    .tittle-wrapper {
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 42px;
+    }
+
+    .products {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 42px;
+    }
+}
